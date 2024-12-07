@@ -1,0 +1,7 @@
+.b {
+    @apply text-xl;
+}
+
+.s {
+    @apply text-base;
+}

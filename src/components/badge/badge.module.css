@@ -1,0 +1,23 @@
+.badge {
+  @apply inline-flex tracking-wide font-normal items-center rounded-md border px-2.5 py-0.5 text-xs transition-colors focus:outline-none focus:ring-2 focus:ring-ring focus:ring-offset-2;
+}
+
+.badge--default {
+  @apply border-transparent bg-accent text-accent-foreground hover:bg-accent/80;
+}
+
+.badge--secondary {
+  @apply border-transparent bg-secondary text-secondary-foreground hover:bg-secondary/80;
+}
+
+.badge--warning {
+  @apply border-transparent bg-yellow-300/20 text-yellow-500 hover:bg-yellow-500/50 hover:text-yellow-800;
+}
+
+.badge--success {
+  @apply border-transparent bg-green-500 text-white hover:bg-green-600; /* Пример стиля */
+}
+
+.badge--destructive {
+  @apply border-transparent text-sm font-medium bg-destructive text-destructive-foreground hover:bg-destructive/80;
+}
